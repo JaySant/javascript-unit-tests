@@ -16,12 +16,12 @@
 */
 
 const createStudent = (Name) => {
-const create = {
-  name: `${Name}`,
-  feedback: () => { 
+  const create = {
+    name: `${Name}`,
+    feedback: () => { 
       const frase = ('Eita pessoa boa!'); 
       return frase;
-  } 
+    },
   };
   return create;
 };
